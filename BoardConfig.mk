@@ -111,8 +111,7 @@ TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
 
 # Lineage Hardware
-JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(PLATFORM_PATH)/lineagehw|**/*.java
-TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap"
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(PLATFORM_PATH)/config.fs
