@@ -123,8 +123,7 @@ PRODUCT_PACKAGES += \
     libmmjpeg_interface \
     libqomx_core \
     libshim_atomic \
-    sensors.hal.tof \
-    Snap
+    sensors.hal.tof
 
 # DRM
 PRODUCT_PACKAGES += \
