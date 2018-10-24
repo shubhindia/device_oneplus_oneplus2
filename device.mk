@@ -179,10 +179,7 @@ PRODUCT_PACKAGES += \
     flp.conf \
     gps.conf \
     izat.conf \
-    lowi.conf \
-    quipc.conf \
-    sap.conf \
-    xtwifi.conf
+    sap.conf
 
 # HIDL
 PRODUCT_PACKAGES += \
