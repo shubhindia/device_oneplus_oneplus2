@@ -208,7 +208,8 @@ ifeq ($(HOST_OS),linux)
     endif
   endif
 endif
-
+#Ignore Neverallows
+SELINUX_IGNORE_NEVERALLOWS := true
 # Recovery
 TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/rootdir/etc/fstab.qcom
 
