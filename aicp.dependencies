@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_device_oppo_common",
+    "repository": "device_oppo_common",
     "target_path": "device/oppo/common",
     "branch": "p9.0"
   },
@@ -17,7 +17,7 @@
     "branch": "lineage-16.0"
   },
   {
-    "repository": "android_kernel_oneplus_msm8994",
+    "repository": "kernel_oneplus_msm8994",
     "target_path": "kernel/oneplus/msm8994",
     "branch": "p9.0"
   }
